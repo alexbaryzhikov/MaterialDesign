@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TransitionManager</string>
+    <string name="title">Almond Blossom</string>
+    <string name="author">Vincent Van Gogh, 1890</string>
+    <string name="show_info">Show info</string>
+    <string name="almond_blossom_info">Almond Blossom was painted immediately before one of his attacks; \"My work was going well,\" he informed his brother, \"the last canvas of branches in blossom - you will see that it is perhaps the best, the most patiently worked thing I had done, painted with calm and with greater firmness of touch. And the next day, down like a brute.\" Poised between lucidity and desperation, this lacework of light and color is kept aloft by the confidence Van Gogh had acquired in the previous two or three years and the sheer technical finesse now at his command. At the back of his mind may well have been a blossom study from a Japanese print, such as the work by Kunisada acquired at some point by the two brothers for their collection. In the \"firmness of touch\" of Almond Blossom, we see the culmination of years of intensive, questioning draftsmanship; and in the openness and buoyancy of the design, we sense the optimism that the artist - despite his insurmountable condition - could magnificently, magically translate into paint.</string>
+    <string name="close_info">Close info</string>
+</resources>
