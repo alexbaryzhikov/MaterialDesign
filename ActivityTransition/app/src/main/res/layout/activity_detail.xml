@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/guide"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/starry_night" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@android:style/Widget.Material.Button.Borderless.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_arrow_back" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guide"
+        tools:text="Starry Night" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:scrollbarStyle="outsideOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Widely hailed as Van Gogh&apos;s magnum opus, the painting depicts the view outside his sanatorium room window at night, although it was painted from memory during the day.\n\nStarry Night depicts a dreamy interpretation of the artist&apos;s asylum room&apos;s sweeping view of Saint-Rémy-de-Provence. Though Van Gogh revisited this scene in his work on several occasions, &quot;Starry Night&quot; is the only nocturnal study of the view. Thus, in addition to descriptions evident in the myriad of letters he wrote to his brother, Theo, it offers a rare nighttime glimpse into what the artist saw while in isolation. &quot;Through the iron-barred window I can make out a square of wheat in an enclosure,&quot; he wrote in May of 1889, &quot;above which in the morning I see the sun rise in its glory.&quot;\n\nAn end-of-the-world cataclysm invades Van Gogh&apos;s Starry Night, one of apocalypse filled with melting aerolites and comets adrift. One has the impression that the artist has expelled his inner conflict onto a canvas. Everything here is brewed in a huge cosmic fusion. The sole exception is the village in the foreground with its architectural elements. Several months after painting Starry Night, Van Gogh wrote: &quot;Why, I say to myself, should the spots of light in the firmament be less accessible to us than the black spots on the map of France?.. Just as we take the train to go to Tarascon or Rouen, we take death to go to a star.&quot;" />
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

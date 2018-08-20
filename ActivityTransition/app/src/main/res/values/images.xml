@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/starry_night</item>
+        <item>@drawable/sunflowers</item>
+        <item>@drawable/starry_night_over_the_rhone</item>
+        <item>@drawable/cafe_terrace_at_night</item>
+        <item>@drawable/irises</item>
+        <item>@drawable/almond_blossom</item>
+    </array>
+</resources>

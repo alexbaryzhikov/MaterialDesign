@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">ActivityTransition</string>
+    <string name="starry_night">Starry Night, 1889</string>
+    <string name="sunflowers">Sunflowers, 1888</string>
+    <string name="starry_night_over_the_rhone">The Starry Night Over The Rhone, 1888</string>
+    <string name="cafe_terrace_at_night">Café Terrace at Night, 1888</string>
+    <string name="irises">Irises, 1889</string>
+    <string name="almond_blossom">Almond Blossom, 1890</string>
+    <string name="back">Back</string>
+
+    <string-array name="titles">
+        <item>@string/starry_night</item>
+        <item>@string/sunflowers</item>
+        <item>@string/starry_night_over_the_rhone</item>
+        <item>@string/cafe_terrace_at_night</item>
+        <item>@string/irises</item>
+        <item>@string/almond_blossom</item>
+    </string-array>
+
+    <string-array name="descriptions">
+
+        <!-- Starry night -->
+        <item>
+            Widely hailed as Van Gogh\'s magnum opus, the painting depicts the view outside his
+            sanatorium room window at night, although it was painted from memory during the day.
+
+            \n\nStarry Night depicts a dreamy interpretation of the artist\'s asylum room\'s
+            sweeping view of Saint-Rémy-de-Provence. Though Van Gogh revisited this scene in his
+            work on several occasions, \"Starry Night\" is the only nocturnal study of the view.
+            Thus, in addition to descriptions evident in the myriad of letters he wrote to his
+            brother, Theo, it offers a rare nighttime glimpse into what the artist saw while in
+            isolation. \"Through the iron-barred window I can make out a square of wheat in an
+            enclosure,\" he wrote in May of 1889, \"above which in the morning I see the sun rise
+            in its glory.\"
+
+            \n\nAn end-of-the-world cataclysm invades Van Gogh\'s Starry Night, one of apocalypse
+            filled with melting aerolites and comets adrift. One has the impression that the artist
+            has expelled his inner conflict onto a canvas. Everything here is brewed in a huge
+            cosmic fusion. The sole exception is the village in the foreground with its
+            architectural elements. Several months after painting Starry Night, Van Gogh wrote:
+            \"Why, I say to myself, should the spots of light in the firmament be less accessible
+            to us than the black spots on the map of France?.. Just as we take the train to go to
+            Tarascon or Rouen, we take death to go to a star.\"
+        </item>
+
+        <!-- Sunflowers -->
+        <item>
+            Some of Vincent van Gogh\'s most famous works are his Sunflower series. He painted a
+            total of twelve of these canvases, although the most commonly referred to are the seven
+            he painted while in Arles in 1888-1889. The other five he had painted previously while
+            in Paris in 1887.
+
+            \n\nThere are many pieces within this series of paintings (each is clearly identifiable
+            as a Van Gogh work) in which there are only minor differences that separate them. The
+            overall layout of the painting along with positioning of the actual sunflowers usually
+            remains the same in the similar paintings.
+
+            \n\nAs Van Gogh anticipated in 1889, the Sunflowers finally became his, and served —
+            combined with self-portraits — as his artistical arms and alter ego up to the present
+            day: no retrospective Van Gogh exhibition since 1901 voluntarily missed to include
+            them, and a wealth of forgeries as well as record-setting price paid at auction
+            acknowledges their public success: Perhaps, because Van Gogh\'s Sunflowers are more
+            than his or him — they may be considered, as Gauguin put it, the flower.
+        </item>
+
+        <!-- The Starry Night Over The Rhone -->
+        <item>
+            Ever since Van Gogh arrived in Arles, he was constantly preoccupied with the
+            representation of \"night effects\". In April 1888, he wrote to his brother Theo: \"I
+            need a starry night with cypresses or maybe above a field of ripe wheat.\" In June, he
+            confided to the painter Emile Bernard: \"But when shall I ever paint the Starry Sky,
+            this painting that keeps haunting me\".
+
+            \n\nStarry Night Over the Rhone (September 1888) was one of three paintings made during
+            the same month that incorporate the night sky and stars as fundamentally symbolic
+            elements. He also painted Cafe Terrace at Night, and a portrait of his friend Eugene
+            Boch which was perhaps the most symbolic of the three.
+
+            \n\nStarry Night Over the Rhone was painted at a spot on the banks of river which was
+            only a minute or two\'s walk from the House on the Place Lamartine which Van Gogh was
+            renting at the time. The night sky and the effects of light at night provided the
+            subject for some of his more famous paintings, including the later canvas from
+            Saint-Rémy, The Starry Night.
+        </item>
+
+        <!-- Café Terrace at Night -->
+        <item>
+            This painting of colorful outdoor view is a picturesque work, the vision of a relaxed
+            spectator who enjoys the charm of his surrounding without any moral concern. It recalls
+            Van Gogh\'s mood when he wrote that \"the night is more alive and more richly colored
+            than the day.\" The color is more profuse and the eye wanders along the steeped or
+            dovetailed edges of neighboring areas — irregular shapes fitted to each other like a
+            jigsaw puzzle design. To divide this space for long into large object and background
+            themes is difficult for the eyes; the distant and nearer parts are alike distinct. The
+            yellow of the cafe plays against the blue-black of the remote street and the
+            violet-blue of the foreground door, and, by a paradox of composition that helps to
+            unify the work, at the strongest point of contrast the awning\'s blunt corner nearest
+            to us touches the remote blue sky. Foreshortened lines that thrust into depth, like the
+            lintel of the door, are strictly parallel to lines like the slope of the yellow awning
+            and the roof of the house above, which lie in planes perpendicular to the first. For
+            this roving, unengaged vision the upward dimension is no less important and expressive
+            than the depth.
+
+            \n\nThe silhouette of the starry sky is key to the patterning of the whole; the poetic
+            idea of the work — the double illumination and contrast of the cafe and the night sky —
+            is developed through this jagged from. In the silhouette of the orange cafe floor and
+            the adjoining window and doors, we discover the inverted shape of the blue sky; the
+            scattered disks of the stars are matched in the elliptical tabletops below. If the cafe
+            stands out as the brightest and most complete object in the scene, it is less defined
+            than the starry sky and its color is the most unstable, passing from yellow to orange
+            and green, and contrasting sharply with almost all the other colors in the circle of
+            cooler and darker tones around it.
+        </item>
+
+        <!-- Irises -->
+        <item>
+            In 1889 Van Gogh entered Saint-Paulde-Mausole, an asylum at Saint-Remy, originally a
+            12th century Augustinian monastery, some twenty kilometres north of Aries. To Van Gogh,
+            Saint-Paul-de-Mausole was an asylum, monastery and studio all in one, which was why he
+            so gladly opted for the isolation. Isolation was what he wanted; the ascetic in van
+            Gogh could indulge in whatever mortification he pleased, and the painter, playing the
+            part of a patient, was in a place that supposedly sought to encourage art. In the
+            mediaeval world, monasteries had been the true home of images,— and the modern age was
+            fascinated by the metaphor of life in a cell as an aid to artistic creativity.
+            \"Nature\", Nietzsche once wrote, \"entraps the genius in a prison and stimulates his
+            wish to break free to the utmost.\" Doing without the stimuli of everyday reality was
+            of course an excellent way of paying what one owed: van Gogh\'s mode of payment was his
+            detention itself rather than madness. His bouts of mental instability reinforced his
+            resolve to turn his back on the world. Indeed, they were to make communication with the
+            world beyond impossible for him.
+
+            \n\nIn the asylum, between attacks, Van Gogh devoted himself to his art with a
+            desperate determination, knowing that this alone might save him. He called painting
+            \"the lightning conductor for my illness.\" And observing his continued ability to
+            paint, he felt sure that he was not really a madman.
+
+            \n\nIrises are perhaps the first subject he did in the asylum. It preceded his first
+            attack there and at first glance shows no evident trace of the moodiness and high
+            tension that appear in many of the later works. He paints the flowers with admiration
+            and joy.
+        </item>
+
+        <!-- Almond Blossom -->
+        <item>
+            Almond Blossom was painted immediately before one of his attacks; \"My work was going
+            well,\" he informed his brother, \"the last canvas of branches in blossom — you will
+            see that it is perhaps the best, the most patiently worked thing I had done, painted
+            with calm and with greater firmness of touch. And the next day, down like a brute.\"
+            Poised between lucidity and desperation, this lacework of light and color is kept aloft
+            by the confidence Van Gogh had acquired in the previous two or three years and the
+            sheer technical finesse now at his command. At the back of his mind may well have been
+            a blossom study from a Japanese print, such as the work by Kunisada acquired at some
+            point by the two brothers for their collection. In the \"firmness of touch\" of Almond
+            Blossom, we see the culmination of years of intensive, questioning draftsmanship; and
+            in the openness and buoyancy of the design, we sense the optimism that the artist —
+            despite his insurmountable condition - could magnificently, magically translate into
+            paint.
+        </item>
+    </string-array>
+
+</resources>

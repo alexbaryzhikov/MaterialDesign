@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/col_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3333" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/col_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6666" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/row_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3333" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/row_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6666" />
+
+    <ImageView
+        android:id="@+id/pic0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/starry_night"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starry_night_small"
+        app:layout_constraintBottom_toBottomOf="@id/row_0"
+        app:layout_constraintEnd_toEndOf="@id/col_0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/sunflowers"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sunflowers_small"
+        app:layout_constraintBottom_toBottomOf="@id/row_0"
+        app:layout_constraintEnd_toEndOf="@id/col_1"
+        app:layout_constraintStart_toStartOf="@id/col_0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/starry_night_over_the_rhone"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starry_night_over_the_rhone_small"
+        app:layout_constraintBottom_toBottomOf="@id/row_0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/col_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/cafe_terrace_at_night"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cafe_terrace_at_night_small"
+        app:layout_constraintBottom_toBottomOf="@id/row_1"
+        app:layout_constraintEnd_toEndOf="@id/col_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/row_0" />
+
+    <ImageView
+        android:id="@+id/pic4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/irises"
+        android:scaleType="centerCrop"
+        android:src="@drawable/irises_small"
+        app:layout_constraintBottom_toBottomOf="@id/row_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/col_1"
+        app:layout_constraintTop_toTopOf="@id/row_0" />
+
+    <ImageView
+        android:id="@+id/pic5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/almond_blossom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/almond_blossom_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/row_1" />
+
+</android.support.constraint.ConstraintLayout>
