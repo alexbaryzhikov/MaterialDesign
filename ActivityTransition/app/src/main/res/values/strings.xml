@@ -7,6 +7,7 @@
     <string name="irises">Irises, 1889</string>
     <string name="almond_blossom">Almond Blossom, 1890</string>
     <string name="back">Back</string>
+    <string name="transition_image">transition_image</string>
 
     <string-array name="titles">
         <item>@string/starry_night</item>

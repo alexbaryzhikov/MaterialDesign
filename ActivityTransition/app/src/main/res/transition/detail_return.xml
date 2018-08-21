@@ -3,17 +3,13 @@
 
     <fade android:fadingMode="fade_out">
         <targets>
-            <target android:targetId="@id/image" />
             <target android:targetId="@id/title" />
             <target android:targetId="@id/description" />
         </targets>
     </fade>
 
-    <slide
-        android:interpolator="@android:interpolator/linear_out_slow_in"
-        android:slideEdge="bottom">
+    <slide android:slideEdge="bottom">
         <targets>
-            <target android:targetId="@id/image" />
             <target android:targetId="@id/title" />
             <target android:targetId="@id/description" />
         </targets>

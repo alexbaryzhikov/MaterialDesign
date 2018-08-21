@@ -21,7 +21,8 @@ class MainActivity : Activity() {
     val intent = Intent(this, DetailActivity::class.java)
     intent.putExtra("id", i)
     imageView.setOnClickListener {
-      val bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle()
+      val bundle = ActivityOptions.makeSceneTransitionAnimation(this, it, it.transitionName)
+          .toBundle()
       startActivity(intent, bundle)
     }
   }
