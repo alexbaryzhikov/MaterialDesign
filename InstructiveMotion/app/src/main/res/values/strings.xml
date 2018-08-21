@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">InstructiveMotion</string>
+    <string name="title">Still Life with Coffee Pot</string>
+    <string name="author">Vincent Van Gogh, 1888</string>
+    <string name="description">
+        In his Dutch years Van Gogh had employed a tonal palette typical of the Barbizon painters
+        and some of the Hague School artists. But in 1884—5 he encountered a new theory of colour
+        in the books and articles he was reading about the French painter Eugene Delacroix. From
+        these texts Van Gogh derived the thesis that one of the distinguishing features and great
+        discoveries of recent art that made it \'modern\' was the use of complementary and
+        contrasting colours in place of tonality and chiaroscuro. The basic message of his reading
+        was that each primary colour — red, blue, yellow — has a complementary colour composed of
+        a mixture of the other two. The complement of red is green; of blue, orange; of yellow,
+        violet. Shadows cast by an object should include the complementary colour of the object.
+        Complementaries are also used to heighten and intensify the brilliance of colour. In his
+        ambition to be modern Van Gogh adopted these theories, but without a sophisticated
+        understanding of them or a sound technical foundation as a painter. He applied them crudely
+        and programmatically, though often with unexpectedly powerful and original effects. During
+        the spring and summer of 1888 Van Gogh corresponded regularly with Bernard, giving his
+        friend reports on work in progress and describing his colour experiments such as this still
+        life. The complementary pairs of blue and orange, yellow and violet can be easily
+        recognized in this painting, and from the colour notes added to a sketch of it included in
+        a letter to Bernard it is clear that the red—green pair was also employed. The background,
+        which in reproduction appears yellow, was in fact a greenish tone. Around the picture Van
+        Gogh has painted a red border, which serves to heighten and emphasize that green. The
+        practice of painting a border of complementary colour onto the canvas was initiated by
+        Seurat, who also employed modern colour theory.
+    </string>
+</resources>
