@@ -13,15 +13,16 @@ class MainActivity : Activity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
+    images.forEachIndexed(setupImageView)
+  }
 
-    images.forEachIndexed { i, image ->
-      val imageView = findViewById<ImageView>(image)
-      val intent = Intent(this, DetailActivity::class.java)
-      intent.putExtra("id", i)
-      imageView.setOnClickListener {
-        val bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle()
-        startActivity(intent, bundle)
-      }
+  private val setupImageView = { i: Int, image: Int ->
+    val imageView = findViewById<ImageView>(image)
+    val intent = Intent(this, DetailActivity::class.java)
+    intent.putExtra("id", i)
+    imageView.setOnClickListener {
+      val bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle()
+      startActivity(intent, bundle)
     }
   }
 }

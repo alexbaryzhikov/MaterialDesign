@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fade android:fadingMode="fade_in">
+        <targets>
+            <target android:targetId="@id/image" />
+            <target android:targetId="@id/title" />
+        </targets>
+    </fade>
+
+    <slide
+        android:interpolator="@android:interpolator/linear_out_slow_in"
+        android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@id/description" />
+        </targets>
+    </slide>
+
+</transitionSet>
