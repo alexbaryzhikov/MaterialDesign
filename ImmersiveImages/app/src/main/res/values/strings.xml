@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ImmersiveImages</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="from_unsplash">From Unsplash</string>
+    <string name="photographer">Photographer: Julia Caesar</string>
+    <string name="no">NO!!!!</string>
+    <string name="center">CENTER</string>
+    <string name="center_crop">CENTER_CROP</string>
+    <string name="center_inside">CENTER_INSIDE</string>
+    <string name="fit_center">FIT_CENTER</string>
+    <string name="fit_end">FIT_END</string>
+    <string name="fit_start">FIT_START</string>
+    <string name="fit_xy">FIT_XY</string>
+    <string name="matrix">MATRIX</string>
+</resources>

@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.coordinatedmotion.MultipleElements">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="containerClick"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            style="@style/card" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            style="@style/card" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            style="@style/card" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card4"
+            style="@style/card" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card5"
+            style="@style/card" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card6"
+            style="@style/card" />
+
+    </LinearLayout>
+
+</ScrollView>
