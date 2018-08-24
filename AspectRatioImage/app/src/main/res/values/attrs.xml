@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="AspectImageView">
-        <attr name="widthRatio" format="integer" />
-        <attr name="heightRatio" format="integer" />
+        <attr name="ratioX" format="integer" />
+        <attr name="ratioY" format="integer" />
     </declare-styleable>
 </resources>
