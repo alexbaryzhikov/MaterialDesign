@@ -1,15 +1,15 @@
 package com.udacity.groupsdemo
 
 import android.os.Bundle
-import android.support.constraint.Group
-import android.support.v7.app.AppCompatActivity
+import androidx.constraintlayout.widget.Group
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
   lateinit var button: Button
-  lateinit var group: Group
+  lateinit var group: androidx.constraintlayout.widget.Group
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)

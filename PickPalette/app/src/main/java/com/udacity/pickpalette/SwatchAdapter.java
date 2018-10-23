@@ -16,7 +16,7 @@
 package com.udacity.pickpalette;
 
 import android.content.Context;
-import android.support.v7.graphics.Palette;
+import androidx.palette.graphics.Palette;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;

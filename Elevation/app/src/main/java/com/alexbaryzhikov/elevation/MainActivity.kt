@@ -2,7 +2,7 @@ package com.alexbaryzhikov.elevation
 
 import android.app.Activity
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import android.widget.FrameLayout
 
 class MainActivity : Activity() {
@@ -30,7 +30,7 @@ class MainActivity : Activity() {
     frame3.setOnClickListener { it.elevation = if (it.elevation == risen) e3 else risen }
     frame4.setOnClickListener { it.elevation = if (it.elevation == risen) e4 else risen }
 
-    val fab = findViewById<FloatingActionButton>(R.id.fab)
+    val fab = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.fab)
 
     fab.setOnClickListener {
       frame1.elevation = e1

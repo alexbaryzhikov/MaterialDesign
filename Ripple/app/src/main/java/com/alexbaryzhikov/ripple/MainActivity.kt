@@ -2,7 +2,7 @@ package com.alexbaryzhikov.ripple
 
 import android.app.Activity
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : Activity() {
 
@@ -10,7 +10,7 @@ class MainActivity : Activity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
-    val fab = findViewById<FloatingActionButton>(R.id.fab)
+    val fab = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.fab)
     fab.setOnClickListener { }
   }
 }
